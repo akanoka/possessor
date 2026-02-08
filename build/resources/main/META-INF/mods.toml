@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="possessor"
+version="1.9"
+displayName="Possessor Mod"
+displayURL="http://example.com/"
+logoFile="logo.png"
+credits="Created using Forge MDK"
+authors="Antigravity"
+description='''Among Us style game mode where a possessor takes control of players.'''
+
+[[dependencies.possessor]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.possessor]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
